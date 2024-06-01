@@ -1,4 +1,5 @@
 build:
-  command: "npm install && npm run build"
-start:
-  command: "npm start"
+  commands:
+    - npm install
+    - npm run dev
+
