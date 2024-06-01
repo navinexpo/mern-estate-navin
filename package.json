@@ -5,9 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon api/index.js",
+    "prestart": "npm install -g nodemon",
+    "dev": "npx nodemon api/index.js",
     "start": "node api/index.js",
-    "build": "npm install && npm install --prefix && npm run build --prefix client"
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
@@ -20,11 +21,11 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.4"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.2"
-  },
   "engines": {
     "node": "20.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
   
 }
