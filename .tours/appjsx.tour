@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "App.jsx",
+  "steps": [
+    {
+      "file": "client/src/App.jsx",
+      "description": "Protect the routes for users who aren't yet sign-in to the page. ",
+      "line": 19
+    },
+    {
+      "title": "Paths",
+      "description": "How to route all the nested components\r\n"
+    }
+  ]
+}

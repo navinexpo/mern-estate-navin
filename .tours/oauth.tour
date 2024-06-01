@@ -1,0 +1,41 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "OAuth",
+  "steps": [
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "Add three information here of users - Username, email and photo.",
+      "line": 24
+    },
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "Add useDisptach and initialize here.",
+      "line": 3
+    },
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "Add disptach for signInSucess data.",
+      "line": 31
+    },
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "once the dispatch method applied. Go to the Backend and set the route for /google. i.e. \"/google/google\"",
+      "line": 50
+    },
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "After sucessfull dispatch, now navigate the user to the home page using, useNavigation. ",
+      "line": 31
+    },
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "Initialize the navigation.",
+      "line": 9
+    },
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "Now, Navigate to the home page.",
+      "line": 32
+    }
+  ]
+}

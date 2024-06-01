@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "profile",
+  "steps": [
+    {
+      "file": "client/src/pages/Profile.jsx",
+      "description": "insert the data updated from useSelector and get the updated state.",
+      "line": 10
+    },
+    {
+      "file": "client/src/pages/Profile.jsx",
+      "description": "create the function handleFileUpload. var fileName: It gives you the date and time of the system. There is uploadTask wehre we are mentioning the upload file size. ",
+      "line": 22
+    },
+    {
+      "file": "client/src/pages/Profile.jsx",
+      "description": "Call the function handleUpload here in useEffect. ",
+      "line": 16
+    },
+    {
+      "file": "client/src/pages/Profile.jsx",
+      "description": "set the progress in round of number like instead of 2.34, can print 2.",
+      "line": 33
+    },
+    {
+      "file": "client/src/pages/Profile.jsx",
+      "description": "After getting the data in formData, we need to the data as in Form URL for the selected Image. ",
+      "line": 19
+    }
+  ]
+}

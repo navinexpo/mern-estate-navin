@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "authController",
+  "steps": [
+    {
+      "file": "api/controllers/auth.controller.js",
+      "description": "Try check user exsisted or not",
+      "line": 43
+    },
+    {
+      "file": "api/controllers/auth.controller.js",
+      "description": "dont wanna send the password. ...rest has user data.",
+      "line": 47
+    },
+    {
+      "file": "api/controllers/auth.controller.js",
+      "description": "user can create or generate the password form this method. 36 meansfrom 0-9 and a-z. slice (-8) means get last 8 digits. ",
+      "line": 53
+    },
+    {
+      "file": "client/src/components/OAuth.jsx",
+      "description": "Avatar comes from photoURL",
+      "line": 27
+    },
+    {
+      "file": "api/controllers/auth.controller.js",
+      "description": "http: true to secure the user data.",
+      "line": 69
+    }
+  ]
+}
